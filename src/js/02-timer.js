@@ -64,9 +64,6 @@ startBtn.addEventListener("click", () => {
 
 });
 
-function addLeadingZero(num) {
-    return String(num).padStart(2, "0");
-}
 
 function convertMs(ms) {
     // Number of milliseconds per unit of time
