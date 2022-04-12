@@ -19,9 +19,17 @@ img {
 
 .timer {
   display: flex;
-  margin-top: 50px;
+  justify-content: center;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 500;
+  margin-top: 50px;
+}
+input[type=text] {
+  width: 200px;
+  height: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+ 
 }
 
 .field {
@@ -33,4 +41,5 @@ img {
 .field:not(:last-child) {
   margin-right: 20px;
 }
+
 
